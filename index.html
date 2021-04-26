@@ -8,21 +8,26 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/css.css">
 </head>
 <body>
 
     <form action="" class="form_calculadora">
-        <label for="" class="fc_titulo">CALCULADORA</label>
-        <input type="number" class="num1">
-        <input type="number" class="num2">
+        <label class="fc_titulo" id="titulo">CALCULADORA</label>
+        <input type="number" class="num1" id="num-1">
+        <input type="number" class="num2" id="num-2">
         <div class="caja_botones">
-            <input type="button" value="*">
-            <input type="button" value="/">
-            <input type="button" value="+">
-            <input type="button" value="-">
+            <input type="button" value="*" id="btn_m">
+            <input type="button" value="/" id="btn_d">
+            <input type="button" value="+" id="btn_s">
+            <input type="button" value="-" id="btn_r">
         </div>
-        <label for="" class="fc_respuesta">Respuesta</label>
+        <label class="fc_respuesta" id="txt-respuesta">Respuesta</label>
     </form>
+    
+    <script src="js/Main.js"></script>
 </body>
 </html>
